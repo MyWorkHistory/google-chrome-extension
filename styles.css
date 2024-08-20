@@ -1,0 +1,35 @@
+/* body {
+  width: 400px;
+}
+
+.sticker {
+  width: 100px;
+  height: 100px;
+  transform-origin: center;
+  z-index: 1000;
+}
+
+.resize-handle {
+  width: 10px;
+  height: 10px;
+  background: blue;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: nwse-resize;
+} */
+/* Optional: Add some styling for visual feedback */
+.sticker-container {
+  border: 1px solid #000; /* Optional: Adds border for better visual clarity */
+  position: relative;
+}
+
+.resize-handle {
+  width: 10px;
+  height: 10px;
+  background: red;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: nwse-resize;
+}
